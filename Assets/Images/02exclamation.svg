@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="6.721" height="17.157" viewBox="0 0 6.721 17.157">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="6.72" height="17.157" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="challenge_icon" data-name="challenge icon" clip-path="url(#clip-path)">
+    <path id="Path_1612" data-name="Path 1612" d="M.425,0,8.589,1.1c.235,0,.425.494.425,1.1v1.3c0,.61-.19,1.1-.425,1.1L.425,5.72C.19,5.72,0,5.226,0,4.616V1.1C0,.494.19,0,.425,0Z" transform="translate(6.22 0.5) rotate(90)" fill="#001365" stroke="#fff" stroke-width="1"/>
+    <rect id="Rectangle_206" data-name="Rectangle 206" width="5.736" height="5.72" rx="2.86" transform="translate(6.22 10.921) rotate(90)" fill="#001365" stroke="#fff" stroke-width="1"/>
+  </g>
+</svg>

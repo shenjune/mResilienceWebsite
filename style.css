@@ -1,0 +1,244 @@
+/* BODY */
+
+body {
+    /*  APPLIES OPEN SANS WITH GREY COLOR TO WHOLE PAGE */
+    /*  Desired effect is making all text the grey and sans */
+    font-family: 'Open Sans', sans-serif;
+    color: #3e3e3e;
+    width: 100%;
+    font-weight: normal;
+}
+
+/*  CLASS FOR TITILLIUM FONT WITH BLUE COLOR */
+
+.secondFont {
+    font-family: 'Titillium Web', sans-serif;
+    color: #001365;
+    font-weight: bold;
+}
+
+/*  CLASS FOR INVERTED HEADER */
+
+.invert {
+    margin-top: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #eeeeee;
+    background-color: #001365;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+/* 01 Nav */
+
+/*scroll-behavior animation for Chrome and FoxFire*/
+html {
+    scroll-behavior: smooth;
+}
+
+#nav{
+    position: fixed;
+    z-index: 1;
+}
+
+nav {
+    background-color: #efefef;
+    border-bottom: 2px solid #001365;
+    top: 0;
+    width: 100%;
+}
+
+.nav-link {
+    margin-right: 15px;
+    padding: 5px;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+    }
+
+.nav-link h5:hover {
+    font-family: 'Titillium Web', sans-serif;
+    color: #eeeeee;
+    background-color: #001365;
+    }
+
+
+/* 02 Main Section */
+
+div#main.row{
+    margin-top: 8%;
+}
+
+#main h4 {
+    margin-top: 30px;
+}
+
+#mResLogo {
+    margin-top: 5%;
+}
+
+#mainBottomImage {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    bottom:0;
+    z-index: -1;
+}
+
+div img#whiteLogo {
+    margin: 10% 35%;
+    position: absolute;
+}
+
+/* 03 The Why Section */
+
+#why {
+    background:#efefef;
+    padding-bottom: 2%;
+}
+
+.checkBullets { 
+    list-style-image: url('Assets/Images/02checkmark.svg');
+}
+
+.exPt {
+    list-style-image: url('Assets/Images/02exclamation.svg');
+}
+
+.arrow {
+    list-style-image: url('Assets/Images/02arrow.svg')
+}
+
+/* 04 Portal Section*/
+
+#portal-div {
+    color:#3e3e3e;
+    background:white;
+    width:100%;
+    padding-top: 2%;
+    padding-left:13%;
+    padding-right:13%;
+    padding-bottom:5%;
+}
+
+#portalImg {
+    width:100%;
+    height:auto;
+    padding-top: 15%;
+    padding-right:3%;
+}
+
+/* 05 contact form */
+
+#back-form {
+    background:#efefef;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+div.container div.row h4.secondFont{
+    padding-top: 0%;
+}
+
+div.container div.row form#back-form.col-lg-6.col-sm-12{
+    padding-top:2%;
+    padding-left: 5%;
+}
+/* 05 Contact form border & background color by ID */
+
+.input-row {
+    margin-top:10px;    
+    margin-bottom:10px;
+}
+
+#user-dept {
+    background:#efefef;
+}
+
+#user-name {
+    background:#efefef;
+}
+
+#user-last-name {
+    background:#efefef;
+}
+
+#user-email {
+    background:#efefef;
+}
+
+#message{
+    border-radius: 8px;
+    height: 8em;
+    border: 1.5px solid #001365;
+    background:#efefef;
+}
+
+.input-border {
+    border-style: none;
+    border-bottom: 1.5px solid #001365;
+    margin-bottom: .20em;
+}
+
+#send{
+    width: 100%;
+    margin: 1px;
+    background-color: #001365;
+    border-radius:8px;
+}
+
+#send:hover{
+    background-color: #EFEFEF;
+    color:#001365;
+}
+
+/*Footer*/
+.footer {
+    border-top: 2px solid #001365;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    background: #efefef;
+    text-align: center;
+    color: #001365;
+    float: left;
+    
+}
+
+.pFooter {
+    font-size: 12px;
+    margin: 0px;
+    line-height: 1.5em;
+}
+
+.footerImage {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    color: #001365;
+}
+
+/* when the screen is mobile the padding for the 02 Main section and 06 About sections are given more space for readability */
+@media only screen and (max-width:700px){
+    .mobilePadding {
+        padding-left:13%;
+        padding-right: 10%;
+    }
+    
+    .mobilePadding2 {
+        padding-left: 8%;
+        padding-right: 8%;
+    }    
+};
+
+/* when the screen is for a desktop the padding for the 02 Main is change for nicer visual spacing */
+@media only screen and (min-width: 768px) {
+    #leadText {
+        padding-right: 15%;
+    }
+};
+
+
