@@ -117,13 +117,13 @@ div#main.row{
     background:white;
     width:100%;
     padding-top: 2%;
-    padding-left:13%;
+    padding-left: 5%;
     padding-right:13%;
     padding-bottom:5%;
 }
 
 #portallogo {
-    height: 10%;
+    height: 12%;
     margin-top: 2%;
 
 }
@@ -148,7 +148,7 @@ div.container div.row h4.secondFont{
 
 div.container div.row form#back-form.col-lg-6.col-sm-12{
     padding-top:2%;
-    padding-left: 5%;
+    padding-left: 0%;
 }
 /* 05 Contact form border & background color by ID */
 
@@ -228,7 +228,7 @@ h3 {
 }
 
 /* when the screen is mobile the padding for the 02 Main section and 06 About sections are given more space for readability */
-@media only screen and (max-width:700px){
+@media only screen and (max-width:600px){
     .mobilePadding {
         padding-left:13%;
         padding-right: 5%;
@@ -252,7 +252,7 @@ h3 {
     }
 
     #portallogo {
-        height: 10%;
+        height: 12%;
         padding-bottom: 3%;
     }
 };
