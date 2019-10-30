@@ -85,11 +85,11 @@ div#main.row{
     bottom:0;
     z-index: -1;
 }
-
-div img#whiteLogo {
+/* White mResilience Logo that overlays on the people picture under the mobile app image in 02. Main section*/
+/*div img#whiteLogo {
     margin: 10% 35%;
     position: absolute;
-}
+} */
 
 /* 03 The Why Section */
 
@@ -122,12 +122,18 @@ div img#whiteLogo {
     padding-bottom:5%;
 }
 
+#portallogo {
+    height: 10%;
+    margin-top: 2%;
+
+}
+
 #portalImg {
     width:100%;
     height:auto;
-    padding-top: 15%;
+    padding-top: 8%;
     padding-right:3%;
-}
+} 
 
 /* 05 contact form */
 
@@ -225,19 +231,29 @@ h3 {
 @media only screen and (max-width:700px){
     .mobilePadding {
         padding-left:13%;
-        padding-right: 10%;
+        padding-right: 5%;
     }
     
     .mobilePadding2 {
         padding-left: 8%;
-        padding-right: 8%;
-    }    
+        padding-right: 5%;
+    }  
+
+    #portallogo {
+        height: 10%;
+        padding-bottom: 3%;
+    }
 };
 
 /* when the screen is for a desktop the padding for the 02 Main is change for nicer visual spacing */
 @media only screen and (min-width: 768px) {
     #leadText {
         padding-right: 15%;
+    }
+
+    #portallogo {
+        height: 10%;
+        padding-bottom: 3%;
     }
 };
 
