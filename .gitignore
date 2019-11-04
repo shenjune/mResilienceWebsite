@@ -1,0 +1,7 @@
+.vscode
+.history
+.env
+desktop.ini
+DS_Store
+archive
+node_modules

@@ -6,10 +6,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- NOTE: moved reset to before all other stylesheets -->
+    <link rel="reset" href="./Assets/reset.css">
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
-
-    
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
@@ -18,10 +19,9 @@
     <!-- Font Awesome CSS Icons (For cool glyphicons) -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
 
-    
     <!-- CSS Stylesheet -->
-    <link rel="stylesheet" href="style.css" media="screen"/>
-    <link rel="reset" href="./Assets/reset.css">
+    <!-- NOTE: removed `media="screen"` attribute below since there's only one custom stylesheet -->
+    <link rel="stylesheet" href="style.css"/>
     
   </head>
 
@@ -36,7 +36,6 @@
 
     <!--Start of NavBar links-->
 
-
     <div class="collapse navbar-collapse titillium-font" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
 
@@ -47,23 +46,17 @@
 
       <!--NavBar Why Link-->
         <li class="nav-item">
-
           <a class="nav-link" href="#why"><h5 class= "secondFont">The Why</h5></a>
-
         </li>  
     
       <!--NavBar Features Link-->
         <li class="nav-item">
-
           <a class="nav-link" href="#portal-div"><h5 class= "secondFont">Features</h5></a>
-
         </li>     
 
       <!--NavBar Contact Link-->
         <li class="nav-item">
-
           <a class="nav-link" href="#back-form"><h5 class= "secondFont">Contact</h5></a>
-
         </li>  
 
       <!--NavBar About Link-->
@@ -78,7 +71,6 @@
     
       <!--NavBar TIAG Link to www.tiag.net-->
         <li class="nav-item" id="nav-tiag">
-
           <a href="http://tiag.net" target="_blank" class="nav-link"><img src="Assets/Images/TIAGlogo.svg" height="25Spx" alt="TIAG logo"></a>
         </li>	
       </ul>
