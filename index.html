@@ -29,7 +29,9 @@
 
   <!-- 01 Nav -->
   <nav class="navbar navbar-expand-lg nav-bg-color navbar-light" id="nav">
-    <a class="navbar-brand" href="#"><img src="Assets/Images/mResFullLogo1.svg" alt="mResilience Logo" class="img-fluid"></a>
+    <a class="navbar-brand" href="#">
+      <img src="Assets/Images/mResFullLogo1.svg" alt="mResilience Logo" class="img-fluid">
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -42,44 +44,56 @@
 
       <!--NavBar Main Link-->
         <li class="nav-item">
-          <a class="nav-link" href="#main"><h5 class= "secondFont">Main</h5><span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#main">
+            <h5 class= "secondFont">Main</h5>
+            <span class="sr-only">(current)</span>
+          </a>
         </li>
 
       <!--NavBar Why Link-->
         <li class="nav-item">
 
-          <a class="nav-link" href="#why"><h5 class= "secondFont">The Why</h5></a>
+          <a class="nav-link" href="#why">
+            <h5 class= "secondFont">The Why</h5>
+          </a>
 
         </li>  
     
       <!--NavBar Features Link-->
         <li class="nav-item">
 
-          <a class="nav-link" href="#portal-div"><h5 class= "secondFont">Features</h5></a>
+          <a class="nav-link" href="#portal-div">
+            <h5 class= "secondFont">Features</h5>
+          </a>
 
         </li>     
 
       <!--NavBar Contact Link-->
         <li class="nav-item">
 
-          <a class="nav-link" href="#back-form"><h5 class= "secondFont">Contact</h5></a>
+          <a class="nav-link" href="#back-form">
+            <h5 class= "secondFont">Contact</h5>
+          </a>
 
         </li>  
 
       <!--NavBar About Link-->
         <li class="nav-item">
-          <a class="nav-link" href="#about"><h5 class= "secondFont">About</h5></a>
+          <a class="nav-link" href="#about">
+            <h5 class= "secondFont">About</h5>
+          </a>
         </li>
     
       <!--NavBar Facebook Link-->
         <li class="nav-item" id="nav-fb">
-          <a href="https://www.facebook.com/mresilience/"  target= "_blank" class="nav-link"><img src="Assets/Images/Facebook.svg" alt="facebook logo"></a>
+          <a target="_blank" href="https://www.facebook.com/mresilience/" class="nav-link"><img src="Assets/Images/Facebook.svg" alt="facebook logo"></a>
         </li>
     
       <!--NavBar TIAG Link to www.tiag.net-->
         <li class="nav-item" id="nav-tiag">
 
-          <a href="http://tiag.net" target="_blank" class="nav-link"><img src="Assets/Images/TIAGlogo.svg" height="25Spx" alt="TIAG logo"></a>
+          <a target="_blank" href="http://tiag.net" class="nav-link">
+            <img src="Assets/Images/TIAGlogo.svg" alt="TIAG logo" id="TIAGlogo"></a>
         </li>	
       </ul>
     </div>
@@ -87,51 +101,45 @@
 
   <!-- 02 Main --> 
   <div class="row" id="main">
-    <div class="col-lg-7 ml-auto col-sm-12"><img src="Assets/Images/01MainPhone.png" width="100%"></div>
-      <div class="align-left col-lg-5 ml-auto "> 
+    <div class="col-lg-7 ml-auto col-sm-12">
+      <!--change styles and put into CSS-->
+      <img src="Assets/Images/01MainPhone.png" width="100%">
+    </div>  
+  <!-- Beginning header image and opening paragraph -->   
+    <div class="col-lg-5 ml-auto"> 
+      <img src="Assets/Images/mResLogo.svg" alt="mResLogo" class="mobilePadding" id="mResLogo">
+      <h4 class= "secondFont mobilePadding">Mobile App for First Responders</h4>
+      <p class="lead mobilePadding" id="leadText">A customizable resilience-building app available 24/7 that provides direct access to peer support, department supported resources, and stress management tools.</p>
+    </div>
 
-        <!-- Beginning header image and opening paragraph -->
-        <img src="Assets/Images/mResLogo.svg" alt="mResLogo" class="mobilePadding" id="mResLogo">
-        <h4 class= "secondFont mobilePadding">Mobile App for First Responders</h4>
-          <p class="lead mobilePadding" id="leadText">A customizable resilience-building app available 24/7 that provides direct access to peer support, department supported resources, and stress management tools.</p>
-      </div>
-
-      <div class="col-12" id="mainBottomImage">
-        <div style="position: relative; left: 0; top: 0;">
-        <!--<img src="Assets/Images/mResilienceLogoWhite.png" id="whiteLogo" alt="image of mResilience Logo">-->
-        <img style= "height: 30%;" src="Assets/Images/02MainFooterImage.png" id="mainBottomImage" alt="image of first responders">
-        
-        </div>
-      </div>
-      </div>
+    <div class="col-12">
+<!--<img src="Assets/Images/mResilienceLogoWhite.png" id="whiteLogo" alt="image of mResilience Logo">-->
+        <img src="Assets/Images/02MainFooterImage.png" id="mainBottomImage" alt="image of first responders">
     </div>
   </div>
+  </div>
+</div>
 
   <!-- 03 The Why --> 
-  <div id="why">
-    <div class="container">  
-    <div class="row">
-      <div class="col-12">
+  <div id="why" class="container">  
+    <!-- <div class="row"> -->
+      <!-- <div class="col-12"> -->
         <!-- 03A: First Responder Challenges section-->
         <div id= "3A">
-          <div class="row">
-            <div class="col-12" id="challengesHeader">
+            <!--<div class="col-12" id="challengesHeader">-->
               <h4 class= "invert">First Responder Challenges</h4>
-            </div>
-          </div>
+            <!-- </div> -->
 
           <!-- 03A: First Responder Challenges text -->
-          <div class="row" id="challengeStatement">
-            <div class="col-12">
+          <!-- <div class="row" id="challengeStatement"> -->
               <p>First responders put resilience to the test every day. The ability to “bounce back” is critical to do the work of protecting and saving lives. But the challenges of first responder work hit at the core. <b>Strengthening</b> and <b>maintaining resilience</b> are the cornerstone of any prevention program. </p>
-            </div>
-          </div>
+            <!-- </div> -->
 
           <!-- 03A: Bullet Points -->
           <div class="row" id="titles">
             <!-- STRESS SECTION -->
             <div class="col-lg-6 col-sm-12" id="stressSubHeader">
-              <h4 class= "secondFont">Effects of Stress & Trauma</h4>
+            <h4 class= "secondFont">Effects of Stress & Trauma</h4>
               <!-- STRESS PTS -->
               <div class="row">  
                 <!-- STRESS BULLET POINTS I-->
@@ -160,28 +168,29 @@
             <!-- DEPARTMENT SECTION -->
             <div class="col-lg-6 col-sm-12" id="challengesSubHeader">
               <h4 class= "secondFont">Department Challenges</h4>
-              <div class="row">
+              <!-- <div class="row"> -->
                 <!-- DEPARTMENT PTS -->
-                <div class="col-12" id="challengebullets">
+                <!-- <div class="col-12" id="challengebullets"> -->
                   <ul class= "exPt">
                     <li>Impact of stress on productivity, performance and retention</li>
                     <li>Cost-effective ways to address the mental challenges of the job</li>
                     <li>The stigma against seeking psychological help</li>
                   </ul>
-                </div>
-              </div> 
+                <!-- </div> -->
+              <!-- </div>  -->
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      <!-- </div> -->
+    <!-- </div> -->
 
     <!--03B: The Solution Section-->
     <div id= "solutionSection">
       <!-- Solution Title -->
       <div class="row">
-        <div class="col-lg-12 col-sm-12" div id="solutionHeader"><h4 class= "invert">The Solution</h4>
-        </div>
+        <!-- <div class="col-lg-12 col-sm-12" div id="solutionHeader"> -->
+        <h4 class= "invert">The Solution</h4>
+        <!-- </div> -->
       </div>   
 
       <!-- Solution Statement -->
@@ -192,20 +201,16 @@
       </div>    
 
       <!-- Solution Bullet Points -->
-      <div class="row" id="titles2">
-        <div class="col-lg-6 ml-auto col-sm-12" id="whymResSubHeader"><h4 class= "secondFont">Why mResilience</h4>
-          <div class="row">
-            <div class="col-12">
-              <div id="whyBullets">
-                <ul class= "arrow">
-                  <li>Capitalize on the values of first responders</li>
-                  <li>Provides access to department, local and national resources</li>
-                  <li>Discreet and personal tools to build and support resiliency</li>
-                  <li>Use the app is 100% confidential</li>
-                  <li>Available 24/7</li>
-                </ul> 
-              </div>
-            </div>
+      <div class="row">
+        <div class="col-lg-6 ml-auto col-sm-12" id="whymResSubHeader">
+          <h4 class= "secondFont">Why mResilience</h4>
+            <ul class= "arrow">
+              <li>Capitalize on the values of first responders</li>
+              <li>Provides access to department, local and national resources</li>
+              <li>Discreet and personal tools to build and support resiliency</li>
+              <li>Use the app is 100% confidential</li>
+              <li>Available 24/7</li>
+            </ul> 
           </div>
         </div>
         
@@ -229,10 +234,10 @@
       </div>
 
       <!-- Vision Bullet Points -->
-      <div class="row" id="visionSubHeader">
-        <div class="col-lg-12 ml-auto col-sm-12">
-          <h4 class= "secondFont">Vision</h4>
-          <div class="row">
+        <div class="row" id="visionSubHeader">
+          <div class="col-lg-12 ml-auto col-sm-12">
+            <h4 class= "secondFont">Vision</h4>
+            <div class="row">
               <ul class= "arrow">
                 <li>First Responders can navigate difficult situations and stay resilient</li>
                 <li>Effective stress management and performance-enhancing tools on-the-go</li>
@@ -243,7 +248,6 @@
           </div>
         </div>
       </div>
-    </div>
   </div> 
 </div>
 
