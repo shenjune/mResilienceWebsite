@@ -26,8 +26,16 @@
 </head>
 
 <body>
-
 <!-- 01 Nav -->
+
+	<!--  NOTES: -->
+	<!-- Why are your nav links h5's? -->
+	<!-- Don't skip heading levels! Always start with h1 then h2 and so forth -->
+	<!-- Style them as necessary using the stylesheet if the default heading styles are not suitable -->
+	<!-- Everything needs to be styled using the stylesheet -->
+	<!-- Alt tags are supposed to be "alternative text" for screen readers to use -->
+
+
 	<nav class="navbar navbar-expand-lg nav-bg-color navbar-light">
 		<a class="navbar-brand" href="#">
 			<img src="Assets/Images/mResFullLogo1.svg" alt="mResilience Logo" class="img-fluid">
@@ -41,31 +49,45 @@
 			<ul class="navbar-nav ml-auto">
 			<!--NavBar Main Link-->
 				<li class="nav-item">
-					<a class="nav-link" href="#main"><h5 class= "secondFont">Main</h5><span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="#main">
+						<h5 class="secondFont">Main</h5>
+						<span class="sr-only">(current)</span>
+					</a>
 				</li>
 				<!--NavBar Why Link-->
 				<li class="nav-item">
-					<a class="nav-link" href="#why"><h5 class= "secondFont">The Why</h5></a>
+					<a class="nav-link" href="#why">
+						<h5 class="secondFont">The Why</h5>
+					</a>
 				</li>  
 				<!--NavBar Features Link-->
 				<li class="nav-item">
-					<a class="nav-link" href="#portal-section"><h5 class= "secondFont">Features</h5></a>
+					<a class="nav-link" href="#portal-section">
+						<h5 class="secondFont">Features</h5>
+					</a>
 				</li>     
 				<!--NavBar Contact Link-->
 				<li class="nav-item">
-					<a class="nav-link" href="#back-form"><h5 class= "secondFont">Contact</h5></a>
+					<a class="nav-link" href="#back-form">
+						<h5 class="secondFont">Contact</h5>
+					</a>
 				</li>  
 				<!--NavBar About Link-->
 				<li class="nav-item">
-					<a class="nav-link" href="#about"><h5 class= "secondFont">About</h5></a>
+					<a class="nav-link" href="#about">
+						<h5 class="secondFont">About</h5></a>
 				</li>
 				<!--NavBar Facebook Link-->
 				<li class="nav-item" id="nav-fb">
-					<a href="https://www.facebook.com/mresilience/"  target= "_blank" class="nav-link"><img src="Assets/Images/Facebook.svg" alt="facebook logo"></a>
+					<a href="https://www.facebook.com/mresilience/" target="_blank" class="nav-link">
+						<img src="Assets/Images/Facebook.svg" alt="facebook logo">
+					</a>
 				</li>
 				<!--NavBar TIAG Link to www.tiag.net-->
 				<li class="nav-item" id="nav-tiag">
-					<a href="http://tiag.net" target="_blank" class="nav-link"><img src="Assets/Images/TIAGlogo.svg" height="25Spx" alt="TIAG logo"></a>
+					<a href="http://tiag.net" target="_blank" class="nav-link">
+						<img src="Assets/Images/TIAGlogo.svg" height="25Spx" alt="TIAG logo">
+					</a>
 				</li>	
 			</ul>
 		</section>
@@ -77,7 +99,7 @@
 			<section class="col-lg-7 ml-auto col-sm-12">
 				<img src="Assets/Images/01MainPhone.png" width="100%">
 			</section>
-			<section class="align-left col-lg-5 ml-auto "> 
+			<section class="col-lg-5 ml-auto "> 
 				<!-- Beginning header image and opening paragraph -->
 				<img src="Assets/Images/mResLogo.svg" alt="mResLogo" class="mobilePadding" id="mResLogo">
 				<h4 class="secondFont mobilePadding">
@@ -87,7 +109,6 @@
 			</section>
 		</section>
 		<section class="row" id="mainBottomImage">
-			<!-- NOTE: style this image using id or class in the stylesheet -->
 			<img src="Assets/Images/02MainFooterImage.png" id="mainBottomImage" alt="image of first responders">
 		</section>
 	</section>
@@ -95,7 +116,7 @@
 	<main class="container">
 		<!-- 03 The Why --> 
 		<section id="why" class="row">
-			<section class="col-12" id= "3A">
+			<section class="col-12" id="3A">
 				<!-- 03A: First Responder Challenges section-->
 				<section class="row" id="challengesHeader">
 					<h4 class="invert">First Responder Challenges</h4>
@@ -151,10 +172,10 @@
 						</section> 
 					</section>
 				</section>
-			
+			</section>
 
 			<!--03B: The Solution Section-->
-			<section id="solutionSection">
+			<section class="col-12" id="solutionSection">
 				<!-- Solution Title -->
 				<section class="row" id="solutionHeader">
 					<h4 class="invert">The Solution</h4>
@@ -194,7 +215,7 @@
 				<!-- Vision Bullet Points -->
 				<!-- need to add align left to this section -->
 				<section class="row">
-					<section class="col-lg-6 ml-auto col-sm-12" id="visionSubheader">
+					<section class="col-lg-6 col-sm-12" id="visionSubheader">
 						<h4 class="secondFont">Vision</h4>
 						<ul class="arrow">
 							<li>First Responders can navigate difficult situations and stay resilient</li>
