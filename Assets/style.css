@@ -141,7 +141,7 @@ div#splash.row{
 /* 04 Portal Section*/
 
 #portallogo {
-    height: 12%;
+    height: 20%;
     margin-top: 10px;
 
 }
@@ -157,6 +157,8 @@ div#splash.row{
 #portalImg {
     width:auto;
     height:auto;
+    padding: 1rem;
+    margin: 1.5rem;
 } 
 
 /* 05 contact form */
@@ -258,7 +260,7 @@ h3 {
 
 
 
-/* when the screen is for a desktop the padding for the 02 Main is change for nicer visual spacing */
+/* when the screen is for a desktop the padding for the 02 Main is change for nicer visual spacing 
 @media only screen and (min-width: 768px) {
     
     #leadText {
@@ -266,9 +268,9 @@ h3 {
     }
 
     #portallogo {
-        height: 12%;
+        height: 20%;
         padding-bottom: 3%;
     }
 };
-
+*/
 
