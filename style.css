@@ -11,10 +11,14 @@ body {
 
 /*  CLASS FOR TITILLIUM FONT WITH BLUE COLOR */
 
-.secondFont {
+
+/*for sub-headings under each page section*/
+.leadInHeading {
     font-family: 'Titillium Web', sans-serif;
     color: #001365;
     font-weight: bold;
+    margin-top: 20px;
+    font-size: 1.5rem;
 }
 
 /*  CLASS FOR INVERTED HEADER */
@@ -24,8 +28,9 @@ body {
     font-family: 'Titillium Web', sans-serif;
     color: #eeeeee;
     background-color: #001365;
-    padding: 10px;
-    padding-left: 15px;
+    padding: 10px 10px 10px 15px;
+    width: 100%;
+    font-size: 1.5rem;
 }
 
 /* 01 Nav */
@@ -35,16 +40,16 @@ html {
     scroll-behavior: smooth;
 }
 
-#nav{
-    position: fixed;
-    z-index: 1;
-}
-
 nav {
+    position: sticky;
+    z-index: 1;
     background-color: #efefef;
     border-bottom: 2px solid #001365;
     top: 0;
     width: 100%;
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem;
 }
 
 .nav-link {
@@ -55,21 +60,21 @@ nav {
     justify-content: center;
     }
 
-.nav-link h5:hover {
+.nav-link span:hover {
     font-family: 'Titillium Web', sans-serif;
     color: #eeeeee;
     background-color: #001365;
     }
 
-
-/* 02 Main Section */
-
-div#main.row{
-    margin-top: 8%;
+#TIAGlogo {
+    height: 25px;
+    width: auto;
 }
 
-#main h4 {
-    margin-top: 30px;
+/* 02 Main Section * (Splash section)*/
+
+div#splash.row{
+    margin-top: 8%;
 }
 
 #mResLogo {
@@ -83,7 +88,17 @@ div#main.row{
     position: relative;
     top: 0;
     bottom:0;
+    left: 0;
     z-index: -1;
+}
+
+/* .leadInHeading also the subheading under the mRes Portal image*/
+.leadInHeading {
+    font-family: 'Titillium Web', sans-serif;
+    color: #001365;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1.5rem;
 }
 /* White mResilience Logo that overlays on the people picture under the mobile app image in 02. Main section*/
 /*div img#whiteLogo {
@@ -95,7 +110,20 @@ div#main.row{
 
 #why {
     background:#efefef;
-    padding-bottom: 2%;
+    padding: 0 4rem;
+    margin: 0 auto;
+}
+
+
+.whyStatements {
+    padding: 10px 10px 10px 15px;
+}
+
+.secondFont {
+    font-size: 1.25rem;
+    font-family: 'Titillium Web', sans-serif;
+    color: #001365;
+    font-weight: bold;
 }
 
 .checkBullets { 
@@ -107,49 +135,43 @@ div#main.row{
 }
 
 .arrow {
-    list-style-image: url('Assets/Images/02arrow.svg')
+    list-style-image: url('Assets/Images/02arrow.svg');
+
 }
+
+
 
 /* 04 Portal Section*/
 
-#portal-div {
+#portallogo {
+    height: 12%;
+    margin-top: 10px;
+}
+
+#portal-section {
     color:#3e3e3e;
     background:white;
     width:100%;
-    padding-top: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom:5%;
-}
-
-#portallogo {
-    height: 12%;
-    margin-top: 2%;
-
+    padding: 4rem;
+    margin: 0 0 0 0;
 }
 
 #portalImg {
-    width:100%;
-    height:auto;
+    width:auto;
+    height:100%;
     padding-top: 8%;
-    padding-right:3%;
+    padding-right:15%;
 } 
 
 /* 05 contact form */
 
-#back-form {
+
+#contactFormInfo {
     background:#efefef;
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-div.container div.row h4.secondFont{
-    padding-top: 0%;
 }
 
-div.container div.row form#back-form.col-lg-6.col-sm-12{
-    padding-top:2%;
-    padding-left: 0%;
-}
+
+
 /* 05 Contact form border & background color by ID */
 
 .input-row {
@@ -196,6 +218,13 @@ div.container div.row form#back-form.col-lg-6.col-sm-12{
 #send:hover{
     background-color: #EFEFEF;
     color:#001365;
+}
+
+/*About*/
+
+#about{
+margin: 4rem;
+
 }
 
 /*Footer*/
