@@ -18,11 +18,11 @@ var icon2=$('<img class= "footerImage" src= "Assets/Images/mresilience_sm_blue.s
 var icon3=$('<a target="_blank" href="https://www.facebook.com/mresilience/"><img class= "footerImage" src= "Assets/Images/Facebook.svg" alt="fbLogo"></a>');
 
 // footer text
-var p1 =$('<p class= "pFooter"> TIAG® is a woman-owned business. DUNS: 065245750.</p>');
-var p2 =$('<p class= "pFooter"> Corporate Headquarters: (703) 437-7878 Ext. 11911 </p>');
-var p3 =$('<p class= "pFooter"> Freedom Drive, Suite 1180, Reston, VA 20190 </p>');  
-var p4 =$('<p class= "pFooter"> This website is Copyright © 2019 </p>');
-var p5 =$('<p class= "pFooter"> The Informatics Applications Group, Inc. </p>');
+var p1 = '<p class = "pFooter"> TIAG® is a woman-owned business. DUNS: 065245750.</p>';
+var p2 = '<p class= "pFooter"> Corporate Headquarters: (703) 437-7878 Ext. 11911 </p>';
+var p3 = '<p class= "pFooter"> Freedom Drive, Suite 1180, Reston, VA 20190 </p>'; 
+var p4 = '<p class= "pFooter"> This website is Copyright © 2019 </p>';
+var p5 = '<p class= "pFooter"> The Informatics Applications Group, Inc. </p>';
 
 function checkMobile(x){
     if(x.matches) {
