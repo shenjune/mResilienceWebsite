@@ -21,7 +21,7 @@
 
 	<!-- CSS Stylesheet -->
 	<!-- NOTE: removed `media="screen"` attribute below since there's only one custom stylesheet -->
-	<link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="./Assets/style.css"/>
 
 </head>
 
@@ -36,11 +36,11 @@
 	<!-- Alt tags are supposed to be "alternative text" for screen readers to use so think about how they are read out loud -->
 
 
-	<nav class="navbar-expand-lg nav-bg-color navbar-light">
+	<nav class="navbar navbar-expand-lg nav-bg-color navbar-light">
 		<a class="navbar-brand" href="#">
 			<img src="Assets/Images/mResFullLogo1.svg" alt="mResilience Logo" class="img-fluid">
 		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
@@ -95,13 +95,13 @@
 
 	<!-- 02 Main (Splash section) --> 
 	<section id="splash">
-		<section class="row">
+		<section class="row" id="splash-row1">
 			<section class="col-lg-7 ml-auto col-sm-12">
 				<img src="Assets/Images/01MainPhone.png" width="100%">
 			</section>
 			<section class="col-lg-5 ml-auto "> 
 				<!-- Beginning header image and opening paragraph -->
-				<img src="Assets/Images/mResLogo.svg" alt="mResLogo" class="mobilePadding" id="mResLogo">
+				<img class= "img-fluid" src="Assets/Images/mResLogo.svg" alt="mResLogo" class="mobilePadding" id="mResLogo">
 				<h2 class="leadInHeading mobilePadding">
 					Mobile App for First Responders
 				</h2>
@@ -116,7 +116,7 @@
 	<main>
 		<!-- 03 The Why --> 
 		<section id="why" class="row">
-			<section class="col-12 greyBackground" id="3A">
+			<section class="col-12" id="3A">
 				<!-- 03A: First Responder Challenges section-->
 				<section class="row" id="challengesHeader">
 					<h2 class="invert">First Responder Challenges</h2>
@@ -124,7 +124,7 @@
 
 				<!-- 03A: First Responder Challenges text -->
 				<section class="row" id="challengeStatement">
-					<p class="whyStatements">First responders put resilience to the test every day. The ability to “bounce back” is critical to do the work of protecting and saving lives. But the challenges of first responder work hit at the core. <strong>Strengthening</strong> and <strongaintaining resilience</strong> are the cornerstone of any prevention program.</p>
+					<p class="whyStatements">First responders put resilience to the test every day. The ability to “bounce back” is critical to do the work of protecting and saving lives. But the challenges of first responder work hit at the core. <strong>Strengthening</strong> and <strong>maintaining resilience</strong> are the cornerstone of any prevention program.</p>
 				</section>
 
 				<!-- 03A: Bullet Points -->
@@ -230,10 +230,10 @@
 		</section> 
 
 		<!-- 04 PORTAL section -->
-		<section id="portal-section" class="container row">
+		<section id="portal-section" class="row">
 			<!-- section for the portal text -->
 			<section class="col-lg-6 ml-auto col-sm-12">
-				<img id="portallogo" src="Assets/Images/portallogo2.svg" alt="mResLogo">
+				<img class="img-fluid" id="portallogo" src="Assets/Images/portallogo2.svg" alt="mResLogo">
 				<h2 class= "leadInHeading">Update App Content in Minutes!</h2>
 				<p class="portalP">The <strong>mRes Portal</strong> is a web application that syncs with the <strong>mRes mobile app</strong>. Departments can take control by customizing app content anytime. Content changes in the Portal will immediately update to the app at the click of a button.</p>
 
@@ -246,18 +246,18 @@
 
 		<!-- section for the Feature images -->
 			<section class="col-lg-6 ml-auto col-sm-12">
-				<img id='portalImg' src="Assets/Images/portal.png" alt="portalImg">
+				<img class="img-fluid" id='portalImg' src="Assets/Images/portal.png" alt="laptop with mobile app in front of it">
 			</section>
 		</section>
 
 		<!---- 05 Contact Form ---->
 		<section id="contactFormInfo" class="mobilePadding2 row">
-			<section class="col-lg-6 ml=auto col-sm-12" id="contactInfo">
+			<section class="col-lg-6 ml-auto col-sm-12" id="contactInfo">
 				<h2 class="leadInHeading">Interested in a Demo? Let’s Do It!</h2>
 				<p class= "contactFormParagraph">Our team is excited to demonstrate our mobile resilience program and discuss how it may fit your department needs. Please complete the brief contact form and we will reach out to coordinate a time to connect. Feel free to provide any details about your department and any specific needs you would like to discuss.</p>
 			</section> 
 
-			<form class= "col-lg-6 col-sm-12" id="contact-form">
+			<form class= "col-lg-6 ml-auto col-sm-12" id="contact-form">
 			<!-- INPUT SECTION -->
 			<section class="form-group" >
 				<!-- Department input -->
@@ -313,7 +313,7 @@
 
 	<!-- script link to send email from contact form to tiag -->
 	<script src="https://smtpjs.com/v3/smtp.js"></script>
-	<script src="script.js"></script>
+	<script src="./Assets/script.js"></script>
 
 </body>
 </html>
