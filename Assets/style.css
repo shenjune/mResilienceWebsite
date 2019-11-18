@@ -40,9 +40,8 @@ html {
     scroll-behavior: smooth;
 }
 
+
 nav {
-    position: sticky;
-    z-index: 1;
     background-color: #efefef;
     border-bottom: 2px solid #001365;
     top: 0;
@@ -78,6 +77,9 @@ div#splash.row{
     margin-top: 8%;
 }
 
+#mainPhone {
+    width: 100%;
+}
 #mResLogo {
     margin-top: 4rem;
 }
@@ -127,15 +129,15 @@ div#splash.row{
 }
 
 .checkBullets { 
-    list-style-image: url('Assets/Images/02checkmark.svg');
+    list-style-image: url('Images/02checkmark.svg');
 }
 
 .exPt {
-    list-style-image: url('Assets/Images/02exclamation.svg');
+    list-style-image: url('Images/02exclamation.svg');
 }
 
 .arrow {
-    list-style-image: url('Assets/Images/02arrow.svg')
+    list-style-image: url('Images/02arrow.svg');
 }
 
 /* 04 Portal Section*/
@@ -260,17 +262,13 @@ h3 {
 
 
 
-/* when the screen is for a desktop the padding for the 02 Main is change for nicer visual spacing 
-@media only screen and (min-width: 768px) {
+/*when the screen is for a desktop the padding for the 02 Main is change for nicer visual spacing 
+@media only screen and (min-width: 550px) {
     
-    #leadText {
-        padding-right: 15%;
+    #mainPhone {
+        width: 200%;
     }
 
-    #portallogo {
-        height: 20%;
-        padding-bottom: 3%;
-    }
 };
 */
 
