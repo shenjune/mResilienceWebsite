@@ -13,8 +13,8 @@ var x = window.matchMedia("(max-width: 700px)");
 
 //O6. FOOTER
 // foot icons
-var icon1=$('<a target="_blank" href="http://tiag.net/"><img class= "footerImage center-block" src= "Assets/Images/TIAGlogo.svg" alt= "TIAGlogo" style= "margin-top: 30px;"></a>'); 
-var icon2=$('<img class= "footerImage" src= "Assets/Images/mresilience_sm_blue.svg" alt= "mresilience_sm_blue" style= "margin-top: 20px;">');
+var icon1=$('<a target="_blank" href="http://tiag.net/"><img class= "footerImage center-block" src= "Assets/Images/TIAGlogo.svg" alt= "TIAGlogo"></a>'); 
+var icon2=$('<img class= "footerImage" src= "Assets/Images/mresilience_sm_blue.svg" alt= "mresilience_sm_blue">');
 var icon3=$('<a target="_blank" href="https://www.facebook.com/mresilience/"><img class= "footerImage" src= "Assets/Images/Facebook.svg" alt="fbLogo"></a>');
 
 // footer text
