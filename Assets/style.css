@@ -42,6 +42,8 @@ html {
 
 
 nav {
+    position: fixed;
+    z-index: 1;
     background-color: #efefef;
     border-bottom: 2px solid #001365;
     top: 0;
@@ -262,13 +264,14 @@ h3 {
 
 
 
-/*when the screen is for a desktop the padding for the 02 Main is change for nicer visual spacing 
-@media only screen and (min-width: 550px) {
+/*when the screen is for a desktop the padding for the 02 Main is change for nicer visual spacing*/ 
+@media only screen and (max-width: 550px) {
     
     #mainPhone {
-        width: 200%;
+        min-width: 25rem;
+        
     }
 
 };
-*/
+
 
