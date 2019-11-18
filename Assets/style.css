@@ -273,6 +273,7 @@ h3 {
     #mainPhone {
         min-width: 25rem;
         height: auto;
+        margin-left: -1rem;
     }
 
     #why,
