@@ -270,14 +270,25 @@ h3 {
 
 
 
-/*when the screen is for a desktop the padding for the 02 Main is change for nicer visual spacing */
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 768px) {
     
     #mainPhone {
         min-width: 25rem;
         height: auto;
     }
 
+    #why,
+    #splash-row1 {
+        padding: 0 2rem;
+    }
+
+    #portal-section,
+    #contactFormInfo,
+    #about {
+        padding: 2rem 2rem;
+    }
+
 };
+
 
 
