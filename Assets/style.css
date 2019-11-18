@@ -46,9 +46,14 @@ nav {
     border-bottom: 2px solid #001365;
     top: 0;
     width: 100%;
+    z-index: 1;
     display: flex;
     align-items: center;
     padding: .5rem 1rem;
+}
+
+.navbar {
+    position: fixed;
 }
 
 .nav-link {
@@ -57,7 +62,7 @@ nav {
     margin-top: 0px;
     align-items: center;
     justify-content: center;
-    }
+}
 
 .nav-link span:hover {
     font-family: 'Titillium Web', sans-serif;
@@ -68,12 +73,16 @@ nav {
 
 /* 02 Main Section * (Splash section)*/
 
+#splash {
+    margin-top: 5rem;
+}
+
 #splash-row1 {
     padding: 0 4rem;
     margin: 0 auto;
 }
 
-div#splash.row{
+#splash.row{
     margin-top: 8%;
 }
 
@@ -240,8 +249,7 @@ div#splash.row{
     background: #efefef;
     text-align: center;
     color: #001365;
-    float: left;
-    
+    margin: 0 auto; 
 }
 
 .pFooter {
@@ -252,8 +260,8 @@ div#splash.row{
 
 .footerImage {
     padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 h3 {
@@ -262,13 +270,14 @@ h3 {
 
 
 
-/*when the screen is for a desktop the padding for the 02 Main is change for nicer visual spacing 
-@media only screen and (min-width: 550px) {
+/*when the screen is for a desktop the padding for the 02 Main is change for nicer visual spacing */
+@media only screen and (max-width: 550px) {
     
     #mainPhone {
-        width: 200%;
+        min-width: 25rem;
+        height: auto;
     }
 
 };
-*/
+
 
