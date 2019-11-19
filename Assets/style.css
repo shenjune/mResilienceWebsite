@@ -43,6 +43,7 @@ html {
 #navLogo {
     width: 15rem;
 }
+
 nav {
     position: fixed;
     z-index: 1;
@@ -100,7 +101,7 @@ nav {
 }
 
 #mainBottomImage {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     margin: 0 auto;
     position: relative;
