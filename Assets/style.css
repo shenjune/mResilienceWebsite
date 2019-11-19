@@ -100,14 +100,9 @@ nav {
 
 }
 
-#mainBottomImage {
-    max-width: 100%;
+.img-responsive {
+    width: 100%;
     height: auto;
-    margin: 0 auto;
-    position: relative;
-    top: 0;
-    bottom:0;
-    z-index: -1;
 }
 
 /* .leadInHeading also the subheading under the mRes Portal image*/
