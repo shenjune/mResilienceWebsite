@@ -40,13 +40,8 @@ html {
     scroll-behavior: smooth;
 }
 
-#navLogo {
-    width: 15rem;
-}
 
 nav {
-    position: fixed;
-    z-index: 1;
     background-color: #efefef;
     border-bottom: 2px solid #001365;
     top: 0;
@@ -60,7 +55,6 @@ nav {
 .navbar {
     position: fixed;
 }
-
 
 .nav-link {
     margin-right: 15px;
@@ -97,12 +91,16 @@ nav {
 }
 #mResLogo {
     margin-top: 4rem;
-
 }
 
 #mainBottomImage {
     width: 100%;
-    height: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    bottom:0;
+    z-index: -1;
 }
 
 /* .leadInHeading also the subheading under the mRes Portal image*/
@@ -250,8 +248,7 @@ nav {
     width: 100%;
     background: #efefef;
     text-align: center;
-    color: #001365;
-    margin: 0 auto; 
+    color: #001365;    
 }
 
 .pFooter {
@@ -262,6 +259,8 @@ nav {
 
 .footerImage {
     padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h3 {
@@ -270,26 +269,13 @@ h3 {
 
 
 
-@media only screen and (max-width: 768px) {
+/*when the screen is for a desktop the padding for the 02 Main is change for nicer visual spacing 
+@media only screen and (min-width: 550px) {
     
     #mainPhone {
-        min-width: 25rem;
-        height: auto;
-        margin-left: -1rem;
-    }
-
-    #why,
-    #splash-row1 {
-        padding: 0 2rem;
-    }
-
-    #portal-section,
-    #contactFormInfo,
-    #about {
-        padding: 2rem 2rem;
+        width: 200%;
     }
 
 };
-
-
+*/
 
