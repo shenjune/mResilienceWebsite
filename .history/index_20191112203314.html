@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
 	<title>TIAG mResilience</title>
 	<!-- Required meta tags -->
@@ -22,18 +21,26 @@
 
 	<!-- CSS Stylesheet -->
 	<!-- NOTE: removed `media="screen"` attribute below since there's only one custom stylesheet -->
-	<link rel="stylesheet" href="./Assets/style.css"/>
+	<link rel="stylesheet" href="style.css"/>
 
 </head>
 
 <body>
 <!-- 01 Nav -->
 
-	<nav class="navbar navbar-expand-lg nav-bg-color navbar-light navbar-default">
+	<!--  NOTE: -->
+	<!-- Why are your nav links h5's? -->
+	<!-- Don't skip heading levels! Always start with h1 then h2 and so forth -->
+	<!-- Style them as necessary using the stylesheet if the default heading styles are not suitable -->
+	<!-- Everything needs to be styled using the stylesheet -->
+	<!-- Alt tags are supposed to be "alternative text" for screen readers to use so think about how they are read out loud -->
+
+
+	<nav class="navbar-expand-lg nav-bg-color navbar-light">
 		<a class="navbar-brand" href="#">
-			<img class="img-fluid" src="Assets/Images/mResFullLogo1.svg" alt="mResilience Logo" class="img-fluid" id="navLogo">
+			<img src="Assets/Images/mResFullLogo1.svg" alt="mResilience Logo" class="img-fluid">
 		</a>
-		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
@@ -43,92 +50,92 @@
 			<!--NavBar Main Link-->
 				<li class="nav-item">
 					<a class="nav-link" href="#main">
-						<span class="secondFont">Main</span>
+						<h5 class="secondFont">Main</h5>
 						<span class="sr-only">(current)</span>
 					</a>
 				</li>
 				<!--NavBar Why Link-->
 				<li class="nav-item">
 					<a class="nav-link" href="#why">
-						<span class="secondFont">The Why</span>
+						<h5 class="secondFont">The Why</h5>
 					</a>
 				</li>  
 				<!--NavBar Features Link-->
 				<li class="nav-item">
 					<a class="nav-link" href="#portal-section">
-						<span class="secondFont">Features</span>
+						<h5 class="secondFont">Features</h5>
 					</a>
 				</li>     
 				<!--NavBar Contact Link-->
 				<li class="nav-item">
 					<a class="nav-link" href="#back-form">
-						<span class="secondFont">Contact</span>
+						<h5 class="secondFont">Contact</h5>
 					</a>
 				</li>  
 				<!--NavBar About Link-->
 				<li class="nav-item">
 					<a class="nav-link" href="#about">
-						<span class="secondFont">About</span></a>
+						<h5 class="secondFont">About</h5></a>
 				</li>
 				<!--NavBar Facebook Link-->
 				<li class="nav-item" id="nav-fb">
 					<a href="https://www.facebook.com/mresilience/" target="_blank" class="nav-link">
-						<img class="img-fluid"src="Assets/Images/Facebook.svg" alt="facebook logo">
+						<img src="Assets/Images/Facebook.svg" alt="facebook logo">
 					</a>
 				</li>
 				<!--NavBar TIAG Link to www.tiag.net-->
 				<li class="nav-item" id="nav-tiag">
 					<a href="http://tiag.net" target="_blank" class="nav-link">
-						<img class="img-fluid" src="Assets/Images/TIAGlogo.svg" height="25Spx" alt="TIAG logo">
+						<img src="Assets/Images/TIAGlogo.svg" height="25Spx" alt="TIAG logo">
 					</a>
 				</li>	
 			</ul>
 		</section>
 	</nav>
 
-	<!-- 02 Main (Splash section) --> 
+	<!-- 02 Main --> 
 	<section id="splash">
-		<section class="row" id="splash-row1">
+		<section class="row">
 			<section class="col-lg-7 ml-auto col-sm-12">
-				<img class= "img-fluid" src="Assets/Images/01MainPhone.png" id="mainPhone">
+				<img src="Assets/Images/01MainPhone.png" width="100%">
 			</section>
 			<section class="col-lg-5 ml-auto "> 
 				<!-- Beginning header image and opening paragraph -->
-				<img class= "img-fluid" src="Assets/Images/mResLogo.svg" alt="mResLogo" id="mResLogo">
-				<h2 class="leadInHeading">
+				<img src="Assets/Images/mResLogo.svg" alt="mResLogo" class="mobilePadding" id="mResLogo">
+				<h4 class="secondFont mobilePadding">
 					Mobile App for First Responders
-				</h2>
-				<p id="leadText">A customizable resilience-building app available 24/7 that provides direct access to peer support, department supported resources, and stress management tools.</p>
+				</h4>
+				<p class="lead mobilePadding" id="leadText">A customizable resilience-building app available 24/7 that provides direct access to peer support, department supported resources, and stress management tools.</p>
 			</section>
 		</section>
-		<section class="row">
-			<img src="Assets/Images/02MainFooterImage.png" id="mainBottomImage" alt="first responders">
+		<section class="row" id="mainBottomImage">
+			<img src="Assets/Images/02MainFooterImage.png" id="mainBottomImage" alt="image of first responders">
 		</section>
 	</section>
 	
-	<main>
+	<main class="container">
 		<!-- 03 The Why --> 
 		<section id="why" class="row">
 			<section class="col-12" id="3A">
 				<!-- 03A: First Responder Challenges section-->
 				<section class="row" id="challengesHeader">
-					<h2 class="invert">First Responder Challenges</h2>
+					<h4 class="invert">First Responder Challenges</h4>
 				</section>
 
 				<!-- 03A: First Responder Challenges text -->
 				<section class="row" id="challengeStatement">
-					<p class="whyStatements">First responders put resilience to the test every day. The ability to “bounce back” is critical to do the work of protecting and saving lives. But the challenges of first responder work hit at the core. <strong>Strengthening</strong> and <strong>maintaining resilience</strong> are the cornerstone of any prevention program.</p>
+					<p>First responders put resilience to the test every day. The ability to “bounce back” is critical to do the work of protecting and saving lives. But the challenges of first responder work hit at the core. <strong>Strengthening</strong> and <strong>maintaining resilience</strong> are the cornerstone of any prevention program.</p>
 				</section>
 
 				<!-- 03A: Bullet Points -->
 				<section class="row" id="titles">
 					<!-- STRESS SECTION -->
 					<section class="col-lg-6 col-sm-12" id="stressSubHeader">
-						<h3 class= "secondFont">Effects of Stress & Trauma</h3>
+						<h4 class= "secondFont">Effects of Stress & Trauma</h4>
 						<!-- STRESS PTS -->
 						<section class="row">  
 						<!-- STRESS BULLET POINTS I-->
-							<section class="col-lg-6 col-md-6 col-sm-12" >
+							<section class="col-6" >
 								<ul class="checkBullets">
 									<li>Burnout</li>
 									<li>Obesity</li>
@@ -138,7 +145,7 @@
 								</ul>
 							</section>
 					<!-- STRESS BULLET POINTS PT II-->
-							<section class="col-lg-6 col-md-6 col-sm-12" >
+							<section class="col-6" >
 								<ul class="checkBullets">
 									<li>Anxiety</li>
 									<li>Domestic Abuse</li>
@@ -168,7 +175,7 @@
 			</section>
 
 			<!--03B: The Solution Section-->
-			<section class="col-12 greyBackground" id="solutionSection">
+			<section class="col-12" id="solutionSection">
 				<!-- Solution Title -->
 				<section class="row" id="solutionHeader">
 					<h4 class="invert">The Solution</h4>
@@ -176,7 +183,7 @@
 
 				<!-- Solution Statement -->
 				<section class="row" id="solutionStatement">
-					<p class="whyStatements">mResilience is a customized program, licensed to first responder agencies to develop, maintain, and rebuild psychological resilience. It’s a combination of <strong>in-person training</strong> and <strong>a companion mobile application</strong>.</p>
+					<p>mResilience is a customized program, licensed to first responder agencies to develop, maintain, and rebuild psychological resilience. It’s a combination of <strong>in-person training</strong> and <strong>a companion mobile application</strong>.</p>
 				</section>    
 
 				<!-- Solution Bullet Points -->
@@ -184,12 +191,11 @@
 					<section class="col-lg-6 ml-auto col-sm-12" id="whymResSubHeader">
 						<h4 class="secondFont">Why mResilience</h4>
 						<ul class="arrow" id="whyBullets">
-							<li>Use the app is 100% confidential</li>
 							<li>Capitalize on the values of first responders</li>
 							<li>Provides access to department, local and national resources</li>
 							<li>Discreet and personal tools to build and support resiliency</li>
-							<li>Available to spouses, partners and children at no additional cost</li>
-							
+							<li>Use the app is 100% confidential</li>
+							<li>Available 24/7</li>
 						</ul> 
 					</section>
 
@@ -223,12 +229,12 @@
 		</section> 
 
 		<!-- 04 PORTAL section -->
-		<section id="portal-section" class="row">
+		<section id="portal-section" class="container row">
 			<!-- section for the portal text -->
 			<section class="col-lg-6 ml-auto col-sm-12">
-				<img class="img-fluid" id="portallogo" src="Assets/Images/portallogo2.svg"  alt="mResLogo">
-				<h2 class= "leadInHeading">Update App Content in Minutes!</h2>
-				<p class="portalP">The <strong>mRes Portal</strong> is a web application that syncs with the <strong>mRes mobile app</strong>. Departments can take control by customizing app content anytime. Content changes in the Portal will immediately update to the app at the click of a button.</p>
+				<img id="portallogo" src="Assets/Images/portallogo2.svg" alt="mResLogo">
+				<h4 class= "secondFont">Update App Content in Minutes!</h4>
+				<p>The <strong>mRes Portal</strong> is a web application that syncs with the <strong>mRes mobile app</strong>. Departments can take control by customizing app content anytime. Content changes in the Portal will immediately update to the app at the click of a button.</p>
 
 				<ul class="arrow">
 					<li>Update department Peer Support roster including adding/deleting team members, modifying bios, and changing contact information</li>
@@ -238,36 +244,36 @@
 			</section>
 
 		<!-- section for the Feature images -->
-			<section class="col-lg-6 ml-auto col-sm-12">
-				<img class="img-fluid" id='portalImg' src="Assets/Images/portal.png" alt="laptop with mobile app in front of it">
+			<section class="col-lg-6 col-sm-12">
+				<img id='portalImg' src="Assets/Images/portal.png" alt="portalImg">
 			</section>
 		</section>
 
 		<!---- 05 Contact Form ---->
-		<section id="contactFormInfo" class="row">
-			<section class="col-lg-6 ml-auto col-sm-12" id="contactInfo">
-				<h2 class="leadInHeading">Interested in a Demo? Let’s Do It!</h2>
-				<p class= "contactFormParagraph">Our team is excited to demonstrate our mobile resilience program and discuss how it may fit your department needs. Please complete the brief contact form and we will reach out to coordinate a time to connect. Feel free to provide any details about your department and any specific needs you would like to discuss.</p>
+		<section id="back-form" class="container mobilePadding2 row">
+			<section class="col-lg-6 col-sm-12">
+				<h4 class="secondFont">Interested in a Demo? Let’s Do It!</h4>
+				<p>Our team is excited to demonstrate our mobile resilience program and discuss how it may fit your department needs. Please complete the brief contact form and we will reach out to coordinate a time to connect. Feel free to provide any details about your department and any specific needs you would like to discuss.</p>
 			</section> 
 
-			<form class= "col-lg-6 ml-auto col-sm-12" id="contact-form">
+			<form class= "col-lg-6 col-sm-12" id="back-form2">
 			<!-- INPUT SECTION -->
-			<section class="form-group" >
-				<!-- Department input -->
-				<input type="text" class="form-control input-border" id="user-dept" placeholder="Agency/Department">
+				<section class="form-group" >
+					<!-- Department input -->
+					<input type="text" class="form-control input-border" id="user-dept" placeholder="Agency/Department">
 
-				<!-- First name input -->
-				<input type="text" class="form-control input-border" id="user-name" placeholder="First Name">
+					<!-- First name input -->
+					<input type="text" class="form-control input-border" id="user-name" placeholder="First Name">
 
-				<!-- Last name input -->
-				<input type="text" class="form-control input-border" id="user-last-name" placeholder="Last name">
+					<!-- Last name input -->
+					<input type="text" class="form-control input-border" id="user-last-name" placeholder="Last name">
 
-				<!-- Email input -->
-				<input type="email" class="form-control input-border" id="user-email" placeholder="Email">
+					<!-- Email input -->
+					<input type="email" class="form-control input-border" id="user-email" placeholder="Email">
 
-				<!-- Notes input -->
-				<label for="message"></label>
-				<textarea class="col-lg-12" id="message" name="message" required="required" placeholder="notes"></textarea>
+					<!-- Notes input -->
+					<label for="message"></label>
+					<textarea class="col-lg-12" id="message" name="message" required="required" placeholder="notes"></textarea>
 
 				<!-- Submit button -->
 					<button type="submit" class="btn btn-primary" id="send">submit</button>
@@ -276,14 +282,14 @@
 		</section>
 
 		<!--06 About TIAG goes here-->
-		<section id="about" class="row">
-			<h2 class="leadInHeading">
+		<section id="about" class="container mobilePadding2 row">
+			<h4 class="secondFont" id="whoWeAre">
 				<strong>Who are we?</strong>  We build technologies that work.
-			</h2>
+			</h4>
 			<p id ="whoWeAreP">We are a team of innovators. With 20 years’ worth of experience TIAG has developed a leading reputation in researching, designing and developing resilience-based technology products for the military, government and most recently, the first responder communities. Our staff are experts comprising program and project managers, subject matter experts, researchers, designers and developers. Collectively, we bring a comprehensive approach to advising and creating relevant resilience-based technology services, programs and products.</p>
-			<h2 class="leadInHeading">
+			<h4 class="secondFont" id="haveIdeas">
 				<strong>Have ideas?</strong> Come innovate with us!
-			</h2>
+			</h4>
 			<p id="haveIdeasP">Our resilience program is just the beginning and is rapidly evolving. Creating first responder-focused resilience solutions does not happen without collaboration with those who protect our communities. Do you have ideas to evaluate resilience? Want to create a digital tool or feature to help your department or agency thrive? We want to work with you.</p>
 			<br>
 		</section>
@@ -306,7 +312,7 @@
 
 	<!-- script link to send email from contact form to tiag -->
 	<script src="https://smtpjs.com/v3/smtp.js"></script>
-	<script src="./Assets/script.js"></script>
+	<script src="script.js"></script>
 
 </body>
 </html>
