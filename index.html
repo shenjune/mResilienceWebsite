@@ -29,9 +29,9 @@
 <body>
 <!-- 01 Nav -->
 
-	<nav class="navbar navbar-expand-lg nav-bg-color navbar-light">
+	<nav class="navbar navbar-expand-lg nav-bg-color navbar-light navbar-default">
 		<a class="navbar-brand" href="#">
-			<img class="img-fluid" src="Assets/Images/mResFullLogo1.svg" alt="mResilience Logo" class="img-fluid">
+			<img class="img-fluid" src="Assets/Images/mResFullLogo1.svg" alt="mResilience Logo" class="img-fluid" id="navLogo">
 		</a>
 		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -90,7 +90,7 @@
 	<section id="splash">
 		<section class="row" id="splash-row1">
 			<section class="col-lg-7 ml-auto col-sm-12">
-				<img class= "img-fluid" src="Assets/Images/01MainPhone.png" width="100%">
+				<img class= "img-fluid" src="Assets/Images/01MainPhone.png" id="mainPhone">
 			</section>
 			<section class="col-lg-5 ml-auto "> 
 				<!-- Beginning header image and opening paragraph -->
@@ -101,10 +101,12 @@
 				<p id="leadText">A customizable resilience-building app available 24/7 that provides direct access to peer support, department supported resources, and stress management tools.</p>
 			</section>
 		</section>
-		<section class="row" id="mainBottomImage">
+
+		<section class="row">
+			<section class="col-lg-12 ml-12 col-sm-12">
 			<img class= "img-fluid" src="Assets/Images/02MainFooterImage.png" id="mainBottomImage" alt="first responders">
+			</section>
 		</section>
-	</section>
 	
 	<main>
 		<!-- 03 The Why --> 
@@ -128,7 +130,7 @@
 						<!-- STRESS PTS -->
 						<section class="row">  
 						<!-- STRESS BULLET POINTS I-->
-							<section class="col-6" >
+							<section class="col-lg-6 col-md-6 col-sm-12" >
 								<ul class="checkBullets">
 									<li>Burnout</li>
 									<li>Obesity</li>
@@ -138,7 +140,7 @@
 								</ul>
 							</section>
 					<!-- STRESS BULLET POINTS PT II-->
-							<section class="col-6" >
+							<section class="col-lg-6 col-md-6 col-sm-12" >
 								<ul class="checkBullets">
 									<li>Anxiety</li>
 									<li>Domestic Abuse</li>
